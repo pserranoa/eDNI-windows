@@ -1,0 +1,5 @@
+# Built VM images
+/builds/
+
+# Packer image cache
+/cache/
