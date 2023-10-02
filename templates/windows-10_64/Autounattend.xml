@@ -193,39 +193,45 @@
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
+                    <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\chrome.ps1</CommandLine>
+                    <Description>Install Chrome</Description>
+                    <Order>16</Order>
+                    <RequiresUserInput>true</RequiresUserInput>
+                </SynchronousCommand>
+                <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\virtualbox-tools.ps1</CommandLine>
                     <Description>Install virtualbox-tools</Description>
-                    <Order>16</Order>
+                    <Order>17</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\enable-rdp.ps1</CommandLine>
                     <Description>Enable RDP</Description>
-                    <Order>17</Order>
+                    <Order>18</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\DNIeRemote.ps1</CommandLine>
                     <Description>DNIeRemote</Description>
-                    <Order>18</Order>
+                    <Order>19</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\Tarjetas_DNIe.ps1</CommandLine>
                     <Description>Tarjetas_DNIe</Description>
-                    <Order>19</Order>
+                    <Order>20</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\AutoFirma.ps1</CommandLine>
                     <Description>AutoFirma</Description>
-                    <Order>20</Order>
+                    <Order>21</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File E:\enable-winrm.ps1</CommandLine>
                     <Description>Enable WinRM</Description>
-                    <Order>21</Order>
+                    <Order>22</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
             </FirstLogonCommands>

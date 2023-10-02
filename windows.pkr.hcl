@@ -53,6 +53,7 @@ locals {
     "../../scripts/config/enable-rdp.ps1",
     "../../scripts/config/virtualbox-tools.ps1",
     "../../scripts/eDNI/firefox.ps1",
+    "../../scripts/eDNI/chrome.ps1",
     "../../scripts/eDNI/AutoFirma.ps1",
     "../../scripts/eDNI/DNIeRemote.ps1",
     "../../scripts/eDNI/Tarjetas_DNIe.ps1",
