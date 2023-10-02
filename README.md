@@ -4,7 +4,7 @@
 
 # Packer, Vagrant and VirtualBox: eDNI-windows
 
-Windows 10 and 11 with firefox, remote Spanish eDNI, card readers and Spanish signer to to be able to carry out procedures with the Spanish electronic DNI from your linux or Windows box.
+Windows 10 and 11 with firefox and chrome, remote Spanish eDNI, card readers and Spanish signer to to be able to carry out procedures with the Spanish electronic DNI from your linux or Windows box.
 
 ## Introduction
 

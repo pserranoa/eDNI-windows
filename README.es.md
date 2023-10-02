@@ -3,7 +3,7 @@
 
 # Packer, Vagrant y VirtualBox: eDNI-windows
 
-Windows 10 y 11 con firefox, eDNI remoto, lector de tarjetas y Autofirma para poder realizar gestiones con el DNI electrónico desde linux o windows.
+Windows 10 y 11 con firefox y chrome, eDNI remoto, lector de tarjetas y Autofirma para poder realizar gestiones con el DNI electrónico desde linux o windows.
 
 ## Introducción
 
@@ -22,6 +22,7 @@ Si necesitas utilizar desde linux o windows el e-DNI, puedes utilizar esta image
 Estas imagenes tienen instalado el siguiente software:
 
 - [Navegador Firefox](https://www.mozilla.org/es-ES/firefox/new/)
+- [Navegador Chrome](https://www.mozilla.org/es-ES/firefox/new/)
 - [eDNI Remote 3.0](https://www.eDNIlectronico.es/descargas/Apps/Instalador_eDNIRemote_x64.exe)
 - [Instalador tarjetatas eDNI v15.0.1](https://www.eDNIlectronico.es/descargas/CSP_para_Sistemas_Windows/Windows_64_bits/Instalador_Tarjetas_eDNI_x64.exe)
 - [Autofirma version 1.8.2 (msi)](https://estaticos.redsara.es/comunes/autofirma/currentversion/AutoFirma64.zip)
@@ -163,13 +164,13 @@ Una vez que generamos la imagen dentro de las ejecuciones bajo la carpeta *build
 Para añadir la imagen a vagrant, debes ejecutar el siguiente comando, en el caso de haber construido en local la imagen de windows-10_64, y haber utilizado la configuración por defecto, accede a la carpeta *builds/windows-10_64* y ejecuta los siguiente comandos: (recuerda parametrizar tu fichero de **Vagrantfile**, para que se ajuste a tus necesidades. Tienes un ejemplo en la sección [Ejemplo de Vagrantfile](#ejemplo-de-vagrantfile))
 
 ```shell
-vagrant box add pserranoa/eDNI-windows-10_64 eDNI-windows-10_64_0.0.1.box
+vagrant box add pserranoa/eDNI-windows-10_64 eDNI-windows-10_64_<version>.box
 vagrant init pserranoa/eDNI-windows-10_64
 vagrant up
 ```
 
 ```shell
-vagrant box add pserranoa/eDNI-windows-11_64 eDNI-windows-11_64_0.0.1.box
+vagrant box add pserranoa/eDNI-windows-11_64 eDNI-windows-11_64_<version>.box
 vagrant init pserranoa/eDNI-windows-11_64
 vagrant up
 ```
