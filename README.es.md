@@ -177,12 +177,12 @@ vagrant up
 
 ## Imagenes subidas a Vagrant Cloud
 
-| Imagen | Version | Tamaño | sha512sum | Fecha |
-| ------ | ------- | ------ | --------- | ----- |
-|[pserranoa/eDNI-windows-10_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-10_64) | **0.0.1** | 5.89 GB | 40115f6f980657fd5d0e699e67149fce5d7b768389284ea7dd26b32772987449b855505bc26c38c7fb856de1c9057ad886ea092994f6824b73e31b9827c68225 | 13/08/2023 |
-|[pserranoa/eDNI-windows-11_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-11_64) | **0.0.1** | 6.33 GB | 4f5fe450aed37bd1e293954c88323461af412a8a509813abb257fbfcc809b8b8b340d39fd4f0b534fc0c84fbff40516ac7b4de9e15ba57e90450762ae9366c08 | 13/08/2023 |
-|[pserranoa/eDNI-windows-10-wu_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-10-wu_64) | **0.0.1** | 11 GB | e7ae13d76c3f1400f1a8cd25ee97931dbd19853df0ca39e4cbb95559ffa1e3f92d0fcbc453efbf4d6c10e0bbada58ed47086309785429119064f69cea6817103 | 13/08/2023 |
-|[pserranoa/eDNI-windows-11-wu_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-11-wu_64) | **0.0.1** | 11 GB | 0a645d640aa8b5b48bfe1e4a6f87f901597f935744ff73f3244c4a44d78d3b93ae03afb86ae0eab3f809564733d91339342a416b7d834d54ebd300db35f70a75 | 13/08/2023 |
+| Imagen | Version | Size | sha512sum | Date |
+| ------ | ------- | ---- | --------- | ---- |
+|[pserranoa/eDNI-windows-10_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-10_64) | **0.0.2** | 6.3 GB | f22d2beae8cc2fc458d7f935156b27aeebf74dae0c61abe9b551cc29b4274195c1b39903626b6189e72d10d23d34ba69f33c4b62def9e622fa258603363714dc | 02/10/2023 |
+|[pserranoa/eDNI-windows-11_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-11_64) | **0.0.2** | 6.5 GB | a3a6687fcd81bca365cc4e97c1f56854db9606fc6ca94f5c81de60df7e8e5135ee7791bf77cf9c1dd22b5d47f752da979e992aa6013460cce1e1dc9a2fe17e49 | 02/10/2023 |
+|[pserranoa/eDNI-windows-10-wu_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-10-wu_64) | **0.0.2** | 12 GB | bf1d64dab7a1f678a3288ea959b1efc8d6e908ac445e40ddb941a87a8b8634d2aee9596be61db579e0b84f09da1604b83f807e4a5e37b30fe788c1def36f1e88 | 02/10/2023 |
+|[pserranoa/eDNI-windows-11-wu_64](https://app.vagrantup.com/pserranoa/boxes/eDNI-windows-11-wu_64) | **0.0.2** | 12 GB | 0a3c97e3b565c35f4a629a4d0c30b720906056f49b4d41801cd1488ea4edc2ee15f512b1eee9c386bde42dc6d7f2f86851ee08257d758a86c650c10106c50b97 | 02/10/2023 |
 
 ## Referencias
 
